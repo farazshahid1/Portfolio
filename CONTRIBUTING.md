@@ -1,4 +1,4 @@
-Contributing Guidelines
+Contributing Guidelines 
 
 Thank you for your interest in contributing to our project! We welcome contributions from everyone. By participating in this project, you agree to abide by the following guidelines:
 
