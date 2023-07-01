@@ -28,10 +28,10 @@ jobs:
           username: ${{ secrets.CPANEL_USER }}
           password: ${{ secrets.CPANEL_PASS }}
           source: app.tar.gz
-          target: /home/dvlprkrishna/public_html/
+          target: /home/dvlprMuhammad Faraz/public_html/
 
       - name: Extract tarball
-        run: ssh dvlprkrishna@krishnasahu.in 'cd public_html/ && tar -xzf app.tar.gz'
+        run: ssh dvlprMuhammad Faraz@Muhammad Farazsahu.in 'cd public_html/ && tar -xzf app.tar.gz'
 
       - name: Restart web server
-        run: ssh dvlprkrishna@krishnasahu.in 'sudo systemctl restart apache2'
+        run: ssh dvlprMuhammad Faraz@Muhammad Farazsahu.in 'sudo systemctl restart apache2'

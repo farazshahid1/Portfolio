@@ -63,13 +63,21 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Next.js Developer",
     icon: backend,
   },
   {
-    title: "Aspiring Content Creator",
-    icon: creator,
+    title: "Angular.js Developer",
+    icon: backend,
   },
+  {
+    title: "Nest.js Developer",
+    icon: backend,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  }
 ];
 
 const technologies = [
@@ -180,7 +188,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Krishna played a significant role, often, in developing and implementing overall web strategies, and dealt with the details along with the bigger picture. His coding was excellent, and his designs were unique and innovative, so clients were always happy.",
+      "Muhammad Faraz played a significant role, often, in developing and implementing overall web strategies, and dealt with the details along with the bigger picture. His coding was excellent, and his designs were unique and innovative, so clients were always happy.",
     name: "Zaid Siddiqui",
     designation: "Project Manager",
     company: "Accenture",
@@ -188,7 +196,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I have worked with Krishna in Accenture for more than a couple of years. Krishna is a proactive, result-oriented, responsible, and technically sound employee and he is always ready to put all his energy and time to get the job done. He has an exceptional troubleshooting and analytical skill in WEB DEVELOPMENT, and React. Krishna is a great asset to any company.",
+      "I have worked with Muhammad Faraz in Accenture for more than a couple of years. Muhammad Faraz is a proactive, result-oriented, responsible, and technically sound employee and he is always ready to put all his energy and time to get the job done. He has an exceptional troubleshooting and analytical skill in WEB DEVELOPMENT, and React. Muhammad Faraz is a great asset to any company.",
     name: "Ashish Waman",
     designation: "IT Project Manager",
     company: "Accenture",
@@ -196,7 +204,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Krishna worked with me on web projects for one of the biggest Pharma firm for their marketing vertical, and he was routinely throughout that time the most creative and capable web developers we had. He had a fantastic eye for unique designs and was able to implement some of the best strategies our company had.",
+      "Muhammad Faraz worked with me on web projects for one of the biggest Pharma firm for their marketing vertical, and he was routinely throughout that time the most creative and capable web developers we had. He had a fantastic eye for unique designs and was able to implement some of the best strategies our company had.",
     name: "Zaid Siddiqui",
     designation: "Project Manager",
     company: "Accenture",
@@ -204,7 +212,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Awesome Work and Ontime Delivery. Good support and service received from Krishna.",
+      "Awesome Work and Ontime Delivery. Good support and service received from Muhammad Faraz.",
     name: "Siddhesh Dongare",
     designation:
       "PMP® | PMI ACP® | SAFe® 5.1 Scrum Master (SSM) | Certified Lean Six Sigma Practitioner | Design Thinker | Agility Coach | Career Coach | Communication Coach | Productivity Coach | Knowledge Data Science (AI & ML)",
@@ -304,11 +312,11 @@ const contacts = [
   {
     title: "Twitter",
     icon: twitter,
-    url: "https://twitter.com/dvlprkrishna/",
+    url: "https://twitter.com/dvlprMuhammad Faraz/",
   },
   {
     title: "Github",
-    url: "https://github.com/dvlprkrishna",
+    url: "https://github.com/dvlprMuhammad Faraz",
     icon: github,
   },
   {
@@ -318,7 +326,7 @@ const contacts = [
   },
   {
     title: "Instagram",
-    url: "https://www.instagram.com/dvlprkrishna/",
+    url: "https://www.instagram.com/dvlprMuhammad Faraz/",
     icon: instagram,
   },
   {
