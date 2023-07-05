@@ -2,6 +2,7 @@ import {
   mobile,
   backend,
   creator,
+  nextjs,
   web,
   javascript,
   typescript,
@@ -36,6 +37,7 @@ import {
   tripguide,
   threejs,
   github,
+  byteMage
 } from "../assets";
 
 export const navLinks = [
@@ -64,7 +66,7 @@ const services = [
   },
   {
     title: "Next.js Developer",
-    icon: backend,
+    icon: nextjs,
   },
   {
     title: "Angular.js Developer",
@@ -118,16 +120,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -137,52 +131,36 @@ const technologies = [
 
 const experiences = [
   {
-    title: "UI UX Developer",
-    company_name: "Webstream Communications",
-    icon: webstream,
+    title: "Software engineer",
+    company_name: "ByteMage",
+    icon: byteMage,
     iconBg: "#383E56",
-    date: "Nov 2020 - Present",
+    date: "April 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Standardized emailers templates for reusing, achieving a 50% reduction in turnaround time.",
+      "Developed and maintained web‑based applications using Nunjucks, React, Next.js, Node.js, Nest.js and Express.js.",
+      "Implemented RESTful APIs for data management and integration with third‑party services.",
+      "Designed and implemented database systems using MongoDB, and PostgreSQL.",
+      "Successfully integrated Google Tag Manager (GTM) in multiple web apps, enhancing tracking capabilities and data collection accuracy",
+      "Implemented comprehensive test suites using Jest to cover various components, functions, and modules, resulting in improved reliability and reduced bugs.",
+      "Contributed to the development of front‑end features and user interfaces.",
+      "Worked with cross‑functional teams to ensure project success and meet deadlines.",
+      "Worked as a team lead on one of the projects.",
     ],
   },
   {
-    title: "PHP Fullstack Developer",
-    company_name: "Viztar International",
+    title: "Software engineer",
+    company_name: "Eleget",
     icon: viztar,
     iconBg: "#E6DEDD",
-    date: "Nov 2019 - Sep 2020",
+    date: "july 2020 - March 2022",
     points: [
-      "Spearheaded major UI UX changes for 3 projects, revamping them from legacy design principles to current design trends. Made websites responsive, more mobile friendly for end users",
-      "Implemented custom role based admin panels for data insertions using CRUD operations using API's for operations team reducing dev team effort by 95%.",
+      "Designed and developed web‑based applications using React, Google Maps, WebRTC.",
+      "Implemented pixel‑perfect design, using Tailwind, to create a polished final product",
+      "Worked with project managers to ensure project goals were met within given time frames.",
+      "Contributed to the development of front‑end features and user interfaces.",
+      "Contributed to the development of new software features and improvements to existing ones.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Accenture",
-    icon: accenture,
-    iconBg: "#383E56",
-    date: "Nov 2018 - Nov 2019",
-    points: [
-      "Developed chrome extension for QA testing, reduced time required for manual QA test runs by 70%.",
-      "Awarded 3x 'Grow Accenture Operations through Innovation' award for various automation ideas.",
-      "Co-ordinated and developed web portals for some of the leading top 20's pharma clients.",
-      "Trained, mentored new resources for emailers, PSD to HTML, and Google web designer banner adverts.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "LionBridge",
-    icon: lionbridge,
-    iconBg: "#E6DEDD",
-    date: "Jan 2018 - Nov 2018",
-    points: [
-      "Developing responsive and cross-browser compatibile websites.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to parse huge amount of data using Regex to process unsegregated data into manageable useful data for further use.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -223,22 +201,18 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Shark Tank Rocks",
+    name: "Time Trail",
     description:
-      "All Shark tank india investments data made so far in season 1 and 2. Created using reactjs, vite and deployed on vercel",
+      "Application for guard tracking management system. Created using reactjs, nestjs",
     tags: [
       {
         name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "vite",
+        name: "nestjs",
         color: "green-text-gradient",
-      },
-      {
-        name: "vercel",
-        color: "pink-text-gradient",
-      },
+      }
     ],
     image: sharktank,
     source_code_link: "http://sharktank.rocks/",
