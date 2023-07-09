@@ -30,14 +30,18 @@ import {
   shopify,
   portfolio,
   carrent,
-  sharktank,
+  TimeTrail,
+  CLoudKitchen,
   schwabe,
+  carTracking,
+  workiamo,
   airportcodes,
   jobit,
   tripguide,
   threejs,
   github,
-  byteMage
+  byteMage,
+  eleget,
 } from "../assets";
 
 export const navLinks = [
@@ -79,7 +83,7 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  }
+  },
 ];
 
 const technologies = [
@@ -150,8 +154,8 @@ const experiences = [
   {
     title: "Software engineer",
     company_name: "Eleget",
-    icon: viztar,
-    iconBg: "#E6DEDD",
+    icon: eleget,
+    iconBg: "#383E56",
     date: "july 2020 - March 2022",
     points: [
       "Designed and developed web‑based applications using React, Google Maps, WebRTC.",
@@ -160,7 +164,7 @@ const experiences = [
       "Contributed to the development of front‑end features and user interfaces.",
       "Contributed to the development of new software features and improvements to existing ones.",
     ],
-  }
+  },
 ];
 
 const testimonials = [
@@ -206,40 +210,39 @@ const projects = [
       "Application for guard tracking management system. Created using reactjs, nestjs",
     tags: [
       {
-        name: "react.js",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "nestjs",
+        name: "Nest.js",
         color: "green-text-gradient",
-      }
+      },
     ],
-    image: sharktank,
-    source_code_link: "http://sharktank.rocks/",
+    image: TimeTrail,
   },
   {
-    name: "Airport Codes",
+    name: "Dark Kitchen",
     description:
-      "Web-based platform that allows users to search, filter, and view airport details via unique airport code convention, providing a convenient and quick solution for looking up airport names for flight booking.",
+      "A dark kitchen, also known as a cloud kitchen, ghost kitchen, or virtual kitchen, is a type of food service establishment that operates exclusively for delivery or takeout orders. Unlike traditional restaurants, dark kitchens don't have a physical dining area for customers to sit and eat. Instead, they are designed solely for food preparation and dispatch.",
     tags: [
       {
         name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: airportcodes,
-    source_code_link: "https://airportcodes.in/",
+    image: CLoudKitchen,
+
   },
   {
-    name: "Portfolio",
+    name: "Cark Tracking",
     description:
       "This portfolio consists of links that showcase past work experience, some of the projects, and other relevant links and information.",
     tags: [
@@ -250,20 +253,19 @@ const projects = [
       {
         name: "tailwind",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: portfolio,
-    source_code_link: "https://reactjs-portfolio-v1.netlify.app/",
+    image: carTracking,
   },
   {
-    name: "Schwabe Pharma",
+    name: "Workiamo",
     description:
-      "A comprehensive pharma event platform that allows users to create account, view live events and past events. Offers curated recommendations for popular events and provision for QnA's and customer support.",
+      "A tasklist app is a digital tool designed to help users manage their tasks and to-do lists efficiently. It provides a convenient and organized way to create, track, and prioritize tasks, ensuring that important deadlines and responsibilities are not overlooked. The app typically offers features such as task creation, due dates, reminders, categorization, and task completion status tracking.",
     tags: [
+      {
+        name: "AngularJS",
+        color: "orange-text-gradient",
+      },
       {
         name: "Bootstrap",
         color: "blue-text-gradient",
@@ -273,41 +275,41 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: ".Net",
+        name: "Django",
         color: "pink-text-gradient",
-      },
+      }
     ],
-    image: schwabe,
+    image: workiamo,
     source_code_link: "https://web-brain-nar.com/",
   },
 ];
 
 const contacts = [
-  {
-    title: "Twitter",
-    icon: twitter,
-    url: "https://twitter.com/dvlprMuhammad Faraz/",
-  },
+  // {
+  //   title: "Twitter",
+  //   icon: twitter,
+  //   url: "https://twitter.com/dvlprMuhammad Faraz/",
+  // },
   {
     title: "Github",
-    url: "https://github.com/dvlprMuhammad Faraz",
+    url: "https://github.com/farazshahid1",
     icon: github,
   },
   {
     title: "Linkedin",
-    url: "https://www.linkedin.com/in/reactjsdev/",
+    url: "https://www.linkedin.com/in/muhammad-faraz-shahid-424617191/",
     icon: linkedin,
   },
-  {
-    title: "Instagram",
-    url: "https://www.instagram.com/dvlprMuhammad Faraz/",
-    icon: instagram,
-  },
-  {
-    title: "Web Studio",
-    url: "https://dvlpr.in/",
-    icon: web,
-  },
+  // {
+  //   title: "Instagram",
+  //   url: "https://www.instagram.com/dvlprMuhammad Faraz/",
+  //   icon: instagram,
+  // },
+  // {
+  //   title: "Web Studio",
+  //   url: "https://dvlpr.in/",
+  //   icon: web,
+  // },
 ];
 
 export {

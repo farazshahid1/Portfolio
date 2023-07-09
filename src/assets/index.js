@@ -32,6 +32,8 @@ import webstream from "./company/webstream.png";
 import tesla from "./company/tesla.png";
 import ashish from "./company/ashish.jpg";
 import zaid from "./company/zaid.jpg";
+import eleget from "./company/eleget.png";
+
 
 import carrent from "./carrent.png";
 import schwabe from "./schwabe.png";
@@ -39,7 +41,11 @@ import airportcodes from "./airportcodes.png";
 import jobit from "./jobit.png";
 import portfolio from "./portfolio.png";
 import tripguide from "./tripguide.png";
-import sharktank from "./sharktank.png";
+import TimeTrail from "./projects/TimeTrail.png";
+import CLoudKitchen from "./projects/CLoud-Kitchen.png";
+import carTracking from "./projects/carTracking.jpeg";
+import workiamo from "./projects/workiamo.png";
+
 import siddesh from "./siddesh.png";
 
 import linkedin from "./linkedin.png";
@@ -71,7 +77,10 @@ export {
   ashish,
   zaid,
   siddesh,
-  sharktank,
+  TimeTrail,
+  CLoudKitchen,
+  carTracking,
+  workiamo,
   mongodb,
   nodejs,
   reactjs,
@@ -92,4 +101,5 @@ export {
   schwabe,
   jobit,
   tripguide,
+  eleget
 };
