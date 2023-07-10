@@ -1,37 +1,30 @@
-name: Deploy to cPanel using ChatGPT
-
+name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
-
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.2.0]
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Install dependencies
-        run: npm install --save --legacy-peer-deps  react-tilt
-
-      - name: Build app
-        run: npm run build
-
-      - name: Create tarball
-        run: tar -czf app.tar.gz dist/
-
-      - name: Copy files to cPanel
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.CPANEL_HOST }}
-          username: ${{ secrets.CPANEL_USER }}
-          password: ${{ secrets.CPANEL_PASS }}
-          source: app.tar.gz
-          target: /home/dvlprMuhammad Faraz/public_html/
-
-      - name: Extract tarball
-        run: ssh dvlprMuhammad Faraz@Muhammad Farazsahu.in 'cd public_html/ && tar -xzf app.tar.gz'
-
-      - name: Restart web server
-        run: ssh dvlprMuhammad Faraz@Muhammad Farazsahu.in 'sudo systemctl restart apache2'
+      - uses: actions/checkout@master
+      - name: install, build, and test
+        run: |
+          yarn install
+          yarn lint
+          yarn build
+          yarn test
+        env:
+          CI: true
+      - name: Deploy to production
+        uses: awibox/deploy-to-github-pages-action@master
+        env:
+          AUTHOR: m.farazshahid
+          BUILD_PATH: public
+          GITHUB_PAGE_NAME: MFarazShahid.github.io
+          PA_TOKEN: ${{ secrets.PA_TOKEN }}
+          USERNAME: m.farazshahid
+          EMAIL: 1931010+awibox@users.noreply.github.com
