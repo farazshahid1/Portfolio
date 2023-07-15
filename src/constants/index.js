@@ -2,6 +2,7 @@ import {
   mobile,
   backend,
   creator,
+  nextjs,
   web,
   javascript,
   typescript,
@@ -15,27 +16,32 @@ import {
   git,
   figma,
   docker,
-  webstream,
-  accenture,
-  lionbridge,
-  zaid,
-  siddesh,
-  ashish,
-  viztar,
+  // webstream,
+  // accenture,
+  // lionbridge,
+  // zaid,
+  // siddesh,
+  // ashish,
+  // viztar,
   linkedin,
   twitter,
   instagram,
-  rupee,
-  shopify,
-  portfolio,
-  carrent,
-  sharktank,
-  schwabe,
-  airportcodes,
-  jobit,
-  tripguide,
-  threejs,
+  // rupee,
+  // shopify,
+  // portfolio,
+  // carrent,
+  TimeTrail,
+  CLoudKitchen,
+  // schwabe,
+  carTracking,
+  workiamo,
+  // airportcodes,
+  // jobit,
+  // tripguide,
+  // threejs,
   github,
+  byteMage,
+  eleget,
 } from "../assets";
 
 export const navLinks = [
@@ -63,12 +69,20 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Next.js Developer",
+    icon: nextjs,
+  },
+  {
+    title: "Angular.js Developer",
     icon: backend,
   },
   {
-    title: "Aspiring Content Creator",
-    icon: creator,
+    title: "Nest.js Developer",
+    icon: backend,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
   },
 ];
 
@@ -110,16 +124,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -129,135 +135,114 @@ const technologies = [
 
 const experiences = [
   {
-    title: "UI UX Developer",
-    company_name: "Webstream Communications",
-    icon: webstream,
+    title: "Software engineer",
+    company_name: "ByteMage",
+    icon: byteMage,
     iconBg: "#383E56",
-    date: "Nov 2020 - Present",
+    date: "April 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Standardized emailers templates for reusing, achieving a 50% reduction in turnaround time.",
+      "Developed and maintained web‑based applications using Nunjucks, React, Next.js, Node.js, Nest.js and Express.js.",
+      "Implemented RESTful APIs for data management and integration with third‑party services.",
+      "Designed and implemented database systems using MongoDB, and PostgreSQL.",
+      "Successfully integrated Google Tag Manager (GTM) in multiple web apps, enhancing tracking capabilities and data collection accuracy",
+      "Implemented comprehensive test suites using Jest to cover various components, functions, and modules, resulting in improved reliability and reduced bugs.",
+      "Contributed to the development of front‑end features and user interfaces.",
+      "Worked with cross‑functional teams to ensure project success and meet deadlines.",
+      "Worked as a team lead on one of the projects.",
     ],
   },
   {
-    title: "PHP Fullstack Developer",
-    company_name: "Viztar International",
-    icon: viztar,
-    iconBg: "#E6DEDD",
-    date: "Nov 2019 - Sep 2020",
-    points: [
-      "Spearheaded major UI UX changes for 3 projects, revamping them from legacy design principles to current design trends. Made websites responsive, more mobile friendly for end users",
-      "Implemented custom role based admin panels for data insertions using CRUD operations using API's for operations team reducing dev team effort by 95%.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Accenture",
-    icon: accenture,
+    title: "Software engineer",
+    company_name: "Eleget",
+    icon: eleget,
     iconBg: "#383E56",
-    date: "Nov 2018 - Nov 2019",
+    date: "july 2020 - March 2022",
     points: [
-      "Developed chrome extension for QA testing, reduced time required for manual QA test runs by 70%.",
-      "Awarded 3x 'Grow Accenture Operations through Innovation' award for various automation ideas.",
-      "Co-ordinated and developed web portals for some of the leading top 20's pharma clients.",
-      "Trained, mentored new resources for emailers, PSD to HTML, and Google web designer banner adverts.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "LionBridge",
-    icon: lionbridge,
-    iconBg: "#E6DEDD",
-    date: "Jan 2018 - Nov 2018",
-    points: [
-      "Developing responsive and cross-browser compatibile websites.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to parse huge amount of data using Regex to process unsegregated data into manageable useful data for further use.",
+      "Designed and developed web‑based applications using React, Google Maps, WebRTC.",
+      "Implemented pixel‑perfect design, using Tailwind, to create a polished final product",
+      "Worked with project managers to ensure project goals were met within given time frames.",
+      "Contributed to the development of front‑end features and user interfaces.",
+      "Contributed to the development of new software features and improvements to existing ones.",
     ],
   },
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "Krishna played a significant role, often, in developing and implementing overall web strategies, and dealt with the details along with the bigger picture. His coding was excellent, and his designs were unique and innovative, so clients were always happy.",
-    name: "Zaid Siddiqui",
-    designation: "Project Manager",
-    company: "Accenture",
-    image: zaid,
-  },
-  {
-    testimonial:
-      "I have worked with Krishna in Accenture for more than a couple of years. Krishna is a proactive, result-oriented, responsible, and technically sound employee and he is always ready to put all his energy and time to get the job done. He has an exceptional troubleshooting and analytical skill in WEB DEVELOPMENT, and React. Krishna is a great asset to any company.",
-    name: "Ashish Waman",
-    designation: "IT Project Manager",
-    company: "Accenture",
-    image: ashish,
-  },
-  {
-    testimonial:
-      "Krishna worked with me on web projects for one of the biggest Pharma firm for their marketing vertical, and he was routinely throughout that time the most creative and capable web developers we had. He had a fantastic eye for unique designs and was able to implement some of the best strategies our company had.",
-    name: "Zaid Siddiqui",
-    designation: "Project Manager",
-    company: "Accenture",
-    image: zaid,
-  },
-  {
-    testimonial:
-      "Awesome Work and Ontime Delivery. Good support and service received from Krishna.",
-    name: "Siddhesh Dongare",
-    designation:
-      "PMP® | PMI ACP® | SAFe® 5.1 Scrum Master (SSM) | Certified Lean Six Sigma Practitioner | Design Thinker | Agility Coach | Career Coach | Communication Coach | Productivity Coach | Knowledge Data Science (AI & ML)",
-    company: "projectconsultant.org",
-    image: siddesh,
-  },
+  // {
+  //   testimonial:
+  //     "Muhammad Faraz played a significant role, often, in developing and implementing overall web strategies, and dealt with the details along with the bigger picture. His coding was excellent, and his designs were unique and innovative, so clients were always happy.",
+  //   name: "Zaid Siddiqui",
+  //   designation: "Project Manager",
+  //   company: "Accenture",
+  //   image: zaid,
+  // },
+  // {
+  //   testimonial:
+  //     "I have worked with Muhammad Faraz in Accenture for more than a couple of years. Muhammad Faraz is a proactive, result-oriented, responsible, and technically sound employee and he is always ready to put all his energy and time to get the job done. He has an exceptional troubleshooting and analytical skill in WEB DEVELOPMENT, and React. Muhammad Faraz is a great asset to any company.",
+  //   name: "Ashish Waman",
+  //   designation: "IT Project Manager",
+  //   company: "Accenture",
+  //   image: ashish,
+  // },
+  // {
+  //   testimonial:
+  //     "Muhammad Faraz worked with me on web projects for one of the biggest Pharma firm for their marketing vertical, and he was routinely throughout that time the most creative and capable web developers we had. He had a fantastic eye for unique designs and was able to implement some of the best strategies our company had.",
+  //   name: "Zaid Siddiqui",
+  //   designation: "Project Manager",
+  //   company: "Accenture",
+  //   image: zaid,
+  // },
+  // {
+  //   testimonial:
+  //     "Awesome Work and Ontime Delivery. Good support and service received from Muhammad Faraz.",
+  //   name: "Siddhesh Dongare",
+  //   designation:
+  //     "PMP® | PMI ACP® | SAFe® 5.1 Scrum Master (SSM) | Certified Lean Six Sigma Practitioner | Design Thinker | Agility Coach | Career Coach | Communication Coach | Productivity Coach | Knowledge Data Science (AI & ML)",
+  //   company: "projectconsultant.org",
+  //   image: siddesh,
+  // },
 ];
 
 const projects = [
   {
-    name: "Shark Tank Rocks",
+    name: "Time Trail",
     description:
-      "All Shark tank india investments data made so far in season 1 and 2. Created using reactjs, vite and deployed on vercel",
+      "Application for guard tracking management system. Created using reactjs, nestjs",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nest.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: TimeTrail,
+  },
+  {
+    name: "Dark Kitchen",
+    description:
+      "A dark kitchen, also known as a cloud kitchen, ghost kitchen, or virtual kitchen, is a type of food service establishment that operates exclusively for delivery or takeout orders. Unlike traditional restaurants, dark kitchens don't have a physical dining area for customers to sit and eat. Instead, they are designed solely for food preparation and dispatch.",
     tags: [
       {
         name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "vite",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "vercel",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: sharktank,
-    source_code_link: "http://sharktank.rocks/",
+    image: CLoudKitchen,
+
   },
   {
-    name: "Airport Codes",
-    description:
-      "Web-based platform that allows users to search, filter, and view airport details via unique airport code convention, providing a convenient and quick solution for looking up airport names for flight booking.",
-    tags: [
-      {
-        name: "react.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: airportcodes,
-    source_code_link: "https://airportcodes.in/",
-  },
-  {
-    name: "Portfolio",
+    name: "Cark Tracking",
     description:
       "This portfolio consists of links that showcase past work experience, some of the projects, and other relevant links and information.",
     tags: [
@@ -268,20 +253,19 @@ const projects = [
       {
         name: "tailwind",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: portfolio,
-    source_code_link: "https://reactjs-portfolio-v1.netlify.app/",
+    image: carTracking,
   },
   {
-    name: "Schwabe Pharma",
+    name: "Workiamo",
     description:
-      "A comprehensive pharma event platform that allows users to create account, view live events and past events. Offers curated recommendations for popular events and provision for QnA's and customer support.",
+      "A tasklist app is a digital tool designed to help users manage their tasks and to-do lists efficiently. It provides a convenient and organized way to create, track, and prioritize tasks, ensuring that important deadlines and responsibilities are not overlooked. The app typically offers features such as task creation, due dates, reminders, categorization, and task completion status tracking.",
     tags: [
+      {
+        name: "AngularJS",
+        color: "orange-text-gradient",
+      },
       {
         name: "Bootstrap",
         color: "blue-text-gradient",
@@ -291,41 +275,41 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: ".Net",
+        name: "Django",
         color: "pink-text-gradient",
-      },
+      }
     ],
-    image: schwabe,
+    image: workiamo,
     source_code_link: "https://web-brain-nar.com/",
   },
 ];
 
 const contacts = [
-  {
-    title: "Twitter",
-    icon: twitter,
-    url: "https://twitter.com/dvlprkrishna/",
-  },
+  // {
+  //   title: "Twitter",
+  //   icon: twitter,
+  //   url: "https://twitter.com/dvlprMuhammad Faraz/",
+  // },
   {
     title: "Github",
-    url: "https://github.com/dvlprkrishna",
+    url: "https://github.com/farazshahid1",
     icon: github,
   },
   {
     title: "Linkedin",
-    url: "https://www.linkedin.com/in/reactjsdev/",
+    url: "https://www.linkedin.com/in/muhammad-faraz-shahid-424617191/",
     icon: linkedin,
   },
-  {
-    title: "Instagram",
-    url: "https://www.instagram.com/dvlprkrishna/",
-    icon: instagram,
-  },
-  {
-    title: "Web Studio",
-    url: "https://dvlpr.in/",
-    icon: web,
-  },
+  // {
+  //   title: "Instagram",
+  //   url: "https://www.instagram.com/dvlprMuhammad Faraz/",
+  //   icon: instagram,
+  // },
+  // {
+  //   title: "Web Studio",
+  //   url: "https://dvlpr.in/",
+  //   icon: web,
+  // },
 ];
 
 export {
