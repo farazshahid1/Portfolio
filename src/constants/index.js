@@ -244,7 +244,7 @@ const projects = [
   {
     name: "Cark Tracking",
     description:
-      "This portfolio consists of links that showcase past work experience, some of the projects, and other relevant links and information.",
+      "Introducing our state-of-the-art car tracking app, designed to provide you with real-time location information and advanced features to enhance your vehicle tracking experience. With our app, you can effortlessly monitor and manage the whereabouts of your car, ensuring peace of mind and added security.",
     tags: [
       {
         name: "react.js",
